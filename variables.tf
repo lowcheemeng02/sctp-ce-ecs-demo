@@ -15,3 +15,8 @@ variable "sg_id" {
     type        = string
     default     = "sg-0163f736062c9790b"
 }
+
+variable resource_grp {
+  type = string
+  default = "cm-nginx-ecs"
+}
